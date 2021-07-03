@@ -166,11 +166,11 @@ const LoginDialog = ({ open, setOpen, setAccount }) => {
               <TextField
                 onChange={(e) => onValueChange(e)}
                 name="username"
-                label="Enter Email/Mobile number"
+                label="Enter Username"
               />
               {error && (
                 <Typography className={classes.error}>
-                  Please enter valid Email ID/Mobile number
+                  Please enter valid username
                 </Typography>
               )}
               <TextField
